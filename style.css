@@ -11,9 +11,17 @@ h1{
 .caixa{
     width: 80px;
     height: 80px;
-    background-color: #ccc;
+    background-color: yellow;
     display: flex;
     justify-content: center;
     align-items: center;
     border: 2px solid black;
+}
+
+.container .caixa{
+    background-color: red;
+}
+
+.container2 .caixa{
+    background-color: blue;
 }
