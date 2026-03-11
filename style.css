@@ -1,0 +1,19 @@
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container, .container2{
+    display: flex;
+    gap: 20px;
+    margin: 30px;
+}
+
+.caixa{
+    width: 80px;
+    height: 80px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
