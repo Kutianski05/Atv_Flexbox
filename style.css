@@ -1,3 +1,10 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 h1{
     font-family: 'Roboto', sans-serif;
 }
@@ -6,13 +13,15 @@ h1{
     display: flex;
     gap: 20px;
     margin: 30px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-
 .caixa{
     width: 80px;
     height: 80px;
-    background-color: yellow;
     display: flex;
+    color: white;
     justify-content: center;
     align-items: center;
     border: 2px solid black;
